@@ -1,0 +1,114 @@
+﻿/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1.2;
+}
+
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* конец кода сброса стилей браузера */
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+header > div {
+    display: flex;
+}
+
+.top_line {
+    gap: 1.5em;
+    align-items: center;
+}
+
+.top_line > div {
+    display: flex;
+}
+
+.logo {
+    padding: 8px 0;
+}
+
+.search {
+    display: flex;
+    gap: 0.5em;
+    flex: 1;
+}
+
+.search > * {
+    padding: 8px 16px;
+    height: 52px;
+}
+
+.search_bar {
+    flex: 1;
+    border: none;
+    border-radius: 18px;
+    background-color: #F6F7FB;
+    font-size: 1em;
+}
+
+.catalog_btn {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    border-radius: 18px;
+    background-color: #F6F7FB;
+    fill: rgb(80, 103, 135);
+}
+
+.catalog_btn > span {
+    font-size: 1.2em;
+}
+
+.links {
+    gap: 0.5em;
+}
+
+.links > a {
+    width: 75px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(170, 172, 187);
+}
+
+.links > a > svg {
+    width: 28px;
+    height: 28px;
+    fill: rgb(170, 172, 187);
+}
