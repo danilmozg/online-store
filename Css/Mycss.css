@@ -134,4 +134,47 @@ header {
     margin: 0 0 0 auto;
     display: flex;
     color: rgb(170, 172, 187);
+    white-space: nowrap;
+}
+
+.content_wrapper {
+    margin: 24px 0 0 0;
+    padding: 16px;
+}
+
+footer {
+    margin: 0 81px;
+    padding: 24px 15px 64px 15px;
+}
+
+.footer_information {
+    display: flex;
+}
+
+.footer_information article {
+    max-width: 375px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 20px;
+}
+
+.footer_main_info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer_phone_number {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.copyright {
+    padding: 64px 0 24px 0;
+    color: rgb(148, 150, 170);
+}
+
+.copyright > a {
+    color: rgb(148, 150, 170);
 }
