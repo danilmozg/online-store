@@ -143,6 +143,10 @@ header {
 }
 
 footer {
+    background-color: rgb(246, 247, 251);
+}
+
+.footer_wrapper {
     margin: 0 81px;
     padding: 24px 15px 64px 15px;
 }
@@ -209,7 +213,17 @@ footer {
     flex-direction: column;
     gap: 0.8em;
     max-width: 212px;
+    text-align: center;
 }
+
+.footer_app_stores svg {
+    width: 36px;
+    height: 37.7px;
+    background-color: #000;
+    border-radius: 12px;
+}
+
+
 
 .copyright {
     padding: 64px 0 24px 0;
