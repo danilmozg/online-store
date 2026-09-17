@@ -143,22 +143,33 @@ header {
 }
 
 main {
-    min-width: 1138px;
-    max-width: 1138px;
+    min-width: 970px;
+    max-width: 970px;
     margin: 0 auto 0 auto;
 }
 
 .main_wrapper {
-    margin: 24px 0 0 0;
+    margin: 24px 0 16px 0;
     padding: 16px;
     background-color: rgb(246, 247, 251);
-    overflow: hidden;   
+    overflow: hidden;
+    border-radius: 16px;
 }
 
 .banner {
     width: 968px;
     height: 50px;
-    margin: 15px -15px;
+    margin: 15px -15px 15px -15px;
+}
+
+.banner img {
+    width: 970px;
+    height: 50px;
+}
+
+.slider {
+    height: 311px;
+    padding: 0 15px 15px 15px;
 }
 
 footer {
@@ -238,7 +249,6 @@ footer {
 .footer_app_stores > div {
     display: flex;
     gap: 0.3em;
-    \
     align-items: center;
     justify-content: center;
 }
